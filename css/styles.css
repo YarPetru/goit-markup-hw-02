@@ -13,7 +13,7 @@
 /* белый #FFFFFF */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--text-font);
   color: var(--main-text-color);
   letter-spacing: 0.03em;
 }
