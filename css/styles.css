@@ -18,17 +18,28 @@ body {
   letter-spacing: 0.03em;
 }
 
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
 /* ======= HEADER ========== */
 .logo {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
-  color: #000;
+  color: var(--accent-color);
 }
 
-.accent {
-  color: var(--accent-color);
+.logo-black {
+  color: #000000;
+}
+
+.logo-white {
+  color: #ffffff;
 }
 
 .nav-list-link {
@@ -51,11 +62,16 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 /* ========= END HEADER ========== */
 
 /* ========= HERO =========== */
+
+.hero {
+  background: #2f303a;
+}
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -66,7 +82,6 @@ body {
   text-transform: uppercase;
 
   color: #ffffff;
-  background-color: #2f303a;
 }
 
 .hero-button {
@@ -104,6 +119,10 @@ body {
 /* ========= END SERVISES  ======== */
 
 /* ========= ABOUT TEAM ======== */
+.team {
+  background: #f5f4fa;
+}
+
 .member-name {
   font-weight: 500;
   font-size: 16px;
@@ -124,12 +143,15 @@ body {
 /* ========= END ABOUT TEAM ======== */
 
 /* ========= FOOTER CONTACTS ======== */
+.footer {
+  background: #2f303a;
+}
+
 .footer-contact {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #ffffff;
-  background-color: #2f303a;
 }
 .link {
   color: rgba(255, 255, 255, 0.6);
