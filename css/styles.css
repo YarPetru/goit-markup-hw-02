@@ -151,6 +151,12 @@ a {
   background: var(--dark-background);
 }
 
+.footer-address-link {
+  font-size: 14px;
+  line-height: 1.714px;
+  color: #ffffff;
+}
+
 .footer-contact-link {
   font-size: 14px;
   line-height: 1.714;
@@ -167,6 +173,10 @@ a {
 /* PORTFOLIO */
 
 /* ======== PROJECTS =========*/
+.example-link {
+  color: inherit;
+}
+
 .example-name {
   font-weight: 700;
   font-size: 18px;
