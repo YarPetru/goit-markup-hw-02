@@ -17,18 +17,46 @@
 /* вторичный цвет фона #2F303A */
 /* белый #FFFFFF */
 
-body {
-  font-family: var(--text-font);
-  color: var(--main-text-color);
-  letter-spacing: 0.03em;
-  background: var(--white-color);
+/* =========СБРОС========== */
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+} */
 
 ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
+}
+/* =========КОНЕЦ СБРОСА======== */
+
+body {
+  font-family: var(--text-font);
+  color: var(--main-text-color);
+  letter-spacing: 0.03em;
+  background: var(--white-color);
 }
 
 /* ======= HEADER ========== */
@@ -74,7 +102,7 @@ a {
 /* ========= HERO =========== */
 
 .hero {
-  background: #2f303a;
+  background: var(--dark-background);
 }
 .hero-title {
   font-weight: 900;
@@ -154,7 +182,7 @@ a {
 .footer-address-link {
   font-size: 14px;
   line-height: 1.714px;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .footer-contact-link {
@@ -203,6 +231,8 @@ a {
 }
 
 .btn {
+  cursor: pointer;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
